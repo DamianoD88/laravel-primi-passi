@@ -24,6 +24,7 @@
                 <a href="{{ route('homepage')}}">Home</a>
                 <a href="{{ route('su-di-noi')}}">Su di noi</a>
                 <a href="{{ route('contatti')}}">Contatti</a>
+                <a href="{{ route('partnership')}}">Partnership</a>
                     
             </div>
         </div>

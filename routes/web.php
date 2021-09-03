@@ -18,9 +18,21 @@ Route::get('/', function () {
 })->name('homepage');
 
 Route::get('/about', function () {
-    return view('about');
+    $data =[
+        // array associativo
+        'title' => 'The PHP Framework for Web Artisans',
+        'argomento' => 'Laravel is a web application framework with expressive, elegant syntax.
+        We’ve already laid the foundation — freeing you to create without sweating the small things.
+
+        '
+    ];
+    return view('about',$data);
 })->name('su-di-noi');
 
 Route::get('/contact', function () {
     return view('contatti');
 })->name('contatti');
+
+Route::get('/partners', function () {
+    return view('partners');
+})->name('partnership');
