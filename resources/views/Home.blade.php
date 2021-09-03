@@ -17,12 +17,12 @@
 
         <div class="content">
             <div class="title m-b-md">
-                 Laravel
+                Hello Word!!  by Laravel
             </div>
 
             <div class="links">
                 <a href="">Home</a>
-                <a href="">About</a>
+                <a href="">Su di noi</a>
                 <a href="">Contatti</a>
                     
             </div>
