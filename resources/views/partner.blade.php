@@ -28,6 +28,11 @@
                     
             </div>
         </div>
+
+        <h2>{{ $titolo }}</h2>
+        
+        <h4>{{ $loro }}</h4>
+        
        
     </body>
 </html>

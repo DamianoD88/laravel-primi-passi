@@ -38,5 +38,9 @@ Route::get('/contact', function () {
 })->name('contatti');
 
 Route::get('/partners', function () {
-    return view('partner');
+   $data = [
+       'titolo' => 'Our partners',
+       'loro' => ['Jump24', 'Madewithlove', 'Tighten']
+   ];
+    return view('partner', $data);
 })->name('partnership');
