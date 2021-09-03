@@ -30,9 +30,13 @@ Route::get('/about', function () {
 })->name('su-di-noi');
 
 Route::get('/contact', function () {
-    return view('contatti');
+    $data = [
+        'title' => 'contact page',
+        'nomi' => ['Alfredo','Gofredo','Adalberto']
+    ];
+    return view('contact', $data);
 })->name('contatti');
 
 Route::get('/partners', function () {
-    return view('partners');
+    return view('partner');
 })->name('partnership');
